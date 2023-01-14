@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    font-family: Inter;
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 50px;
+}
+
+#fetchBtn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 8px 70px;
+    margin-left: 15%;
+}
+
+#primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#secondary {
+    display: none;
+}
+
+#banner {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    justify-content: center;
+}
+
+#pos,
+#map {
+    padding: 0px 150px 40px;
+    font-size: 22px;
+    display: flex;
+}
+
+#map {
+    padding-bottom: 80px;
+}
+
+#pos span {
+    width: 50%;
+}
+
+#weatherData {
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+}
+
+#displayData {
+    padding: 15px 30px;
+    border: 2px solid #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#position {
+    display: flex;
+}
+
+#position p {
+    width: 50%;
+    margin: 0;
+}
